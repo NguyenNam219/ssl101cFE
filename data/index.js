@@ -5,12 +5,14 @@ import { ssl101c1Exam } from './exams/ssl101c1.js';
 import { ssl101c2Exam } from './exams/ssl101c2.js';
 import { ssl101c3Exam } from './exams/ssl101c3.js';
 import { ssl101c4Exam } from './exams/ssl101c4.js';
+import { ssl101c5Exam } from './exams/ssl101c5.js';
 export const exams = [
     ssl101cExam,
     frontendExam,
     ssl101c1Exam,
     ssl101c2Exam,
     ssl101c3Exam,
-    ssl101c4Exam
+    ssl101c4Exam,
+    ssl101c5Exam
 
 ];
