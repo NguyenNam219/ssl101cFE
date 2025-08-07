@@ -1,7 +1,7 @@
 export const ssl101c3Exam = {
     id: 6, // ID phải khác với các đề đã có
     title: "Đề 3",
-    description: "Kiểm tra kiến thức HTML, CSS, JavaScript",
+    description: "Good luck !!!",
     totalQuestions: 51, // Số câu hỏi thực tế
     questions: [
 
