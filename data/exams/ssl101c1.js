@@ -3,7 +3,7 @@ export const ssl101c1Exam = {
     
         id: 4,
         title: "Đề 1",
-        description: "Đề thi thử Backend cơ bản",
+        description: "Good luck !!!",
         totalQuestions: 50,
         questions: [
 
