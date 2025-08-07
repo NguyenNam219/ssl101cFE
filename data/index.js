@@ -8,6 +8,9 @@ import { ssl101c4Exam } from './exams/ssl101c4.js';
 import { ssl101c5Exam } from './exams/ssl101c5.js';
 import { ssl101c6Exam } from './exams/ssl101c6.js';
 import { ssl101c7Exam } from './exams/ssl101c7.js';
+import { ssl101c8Exam } from './exams/ssl101c8.js';
+import { ssl101c9Exam } from './exams/ssl101c9.js';
+import { ssl101c10Exam } from './exams/ssl101c10.js';
 export const exams = [
     ssl101cExam,
     frontendExam,
@@ -17,6 +20,9 @@ export const exams = [
     ssl101c4Exam,
     ssl101c5Exam,
     ssl101c6Exam,
-    ssl101c7Exam
+    ssl101c7Exam,
+    ssl101c8Exam,
+    ssl101c9Exam,
+    ssl101c10Exam
 
 ];
