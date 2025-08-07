@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luyện Đề Trắc Nghiệm</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Trang chọn đề -->
+        <div id="exam-selection" class="page active">
+            <h1>Chọn Đề Thi</h1>
+            <div class="search-box">
+                <input type="text" id="search-exam" placeholder="Tìm kiếm đề thi...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div id="exam-list" class="exam-grid"></div>
+        </div>
+
+        <!-- Trang làm bài -->
+        <div id="exam-page" class="page">
+            <div id="loading-spinner" class="spinner"></div>
+            <div class="exam-header">
+                <div class="exam-info">
+                    <h2 id="exam-title">Đề Thi</h2>
+                    <div class="timer">
+                        <i class="fas fa-clock"></i>
+                        <span id="time">00:00:00</span>
+                    </div>
+                </div>
+                <div class="exam-progress">
+                    <span id="current-question">1</span>/<span id="total-questions">50</span>
+                </div>
+            </div>
+
+            <div class="exam-body">
+                <div class="question-container">
+                    <div id="question-image-container"></div>
+                    <h3 id="question-text">Câu hỏi</h3>
+                    <div id="options-container" class="options"></div>
+                    <div class="navigation-buttons">
+                        <button id="prev-btn"><i class="fas fa-arrow-left"></i> Câu trước</button>
+                        <button id="hint-btn"><i class="fas fa-lightbulb"></i> Gợi ý</button>
+                        <button id="bookmark-btn"><i class="far fa-bookmark"></i> Đánh dấu</button>
+                        <button id="next-btn">Câu sau <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="question-grid-container">
+                    <h3>Danh sách câu hỏi</h3>
+                    <div id="question-list" class="grid"></div>
+                </div>
+            </div>
+
+            <div class="exam-footer">
+                <button id="submit-exam"><i class="fas fa-paper-plane"></i> Nộp bài</button>
+                <button id="reset-exam"><i class="fas fa-redo"></i> Làm lại</button>
+                <button id="exit-exam"><i class="fas fa-sign-out-alt"></i> Thoát</button>
+            </div>
+        </div>
+
+        <!-- Popup gợi ý -->
+        <div id="hint-popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <h3><i class="fas fa-lightbulb"></i> Gợi ý</h3>
+                <p id="hint-text">Nội dung gợi ý sẽ hiển thị ở đây</p>
+            </div>
+        </div>
+
+        <!-- Popup kết quả -->
+        <div id="result-popup" class="popup">
+            <div class="popup-content large">
+                <span class="close-btn">&times;</span>
+                <h3><i class="fas fa-poll"></i> Kết Quả Bài Thi</h3>
+                <div class="result-summary">
+                    <div class="score-circle">
+                        <span id="score">0</span>/<span id="total-score">0</span>
+                    </div>
+                    <div class="time-taken">
+                        <p>Thời gian: <span id="time-result">00:00:00</span></p>
+                    </div>
+                </div>
+                <div class="result-details">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="all">Tất cả</button>
+                        <button class="tab-btn" data-tab="correct">Đúng</button>
+                        <button class="tab-btn" data-tab="wrong">Sai</button>
+                        <button class="tab-btn" data-tab="bookmarked">Đánh dấu</button>
+                    </div>
+                    <div id="results-container" class="results-list"></div>
+                </div>
+                <button id="review-exam" class="review-btn"><i class="fas fa-eye"></i> Xem lại bài làm</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
