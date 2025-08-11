@@ -333,7 +333,7 @@ export const de3Exam = {
             { id: 3, text: "A student making a few photocopies from a university library book for his or her own study purposes" },
             { id: 4, text: "All of above" }
         ],
-        correctAnswer: 1,
+        correctAnswer: 4,
         hint: "Vở kịch do sinh viên tự viết không vi phạm bản quyền."
     },
     {
@@ -706,7 +706,7 @@ export const de3Exam = {
         { id: 3, text: "Students are expected to complete all given assignments on time." },
         { id: 4, text: "Responsibility is not mentioned in academic culture." }
     ],
-    correctAnswer: 4,
+    correctAnswer: 1,
     hint: "Văn hóa học thuật trong khóa học này không đề cập trách nhiệm của sinh viên."
 },
 {
@@ -810,7 +810,7 @@ export const de3Exam = {
 },
 {
     id: 57,
-    text: "Have a look at the following argument. What is the problem with the conclusion? 'Cool Cots makes people happy. There are many young, beautiful people on a beach having fun. They are drinking Cool Cots.'",
+    text: "Have a look at the following argument. What is the problem with the conclusion? 'Cool Cola makes people happy. There are many young, beautiful people on a beach having fun. They are drinking Cool Cots.'",
     image: "",
     category: "Critical Thinking",
     options: [
@@ -818,7 +818,7 @@ export const de3Exam = {
         { id: 2, text: "The conclusion does not follow from the premises" },
         { id: 3, text: "The conclusion is not the most logical result of the premises" }
     ],
-    correctAnswer: 1,
+    correctAnswer: 3,
     hint: "Kết luận được đưa ra trước khi trình bày tiền đề."
 },
 {
