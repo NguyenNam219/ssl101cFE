@@ -73,7 +73,7 @@ export const de1Exam = {
             { id: 5, text: "A, B and D" },
             { id: 6, text: "All of above" }
         ],
-        correctAnswer: [1, 2, 4],
+        correctAnswer: [5],
         hint: "Các lý do bao gồm tìm nguồn đáng tin cậy, chi tiết và khái niệm chưa biết."
     },
     {
@@ -88,7 +88,7 @@ export const de1Exam = {
             { id: 3, text: "Summary - Methodologies - Presentation of Data - Recommendation" },
             { id: 4, text: "Abstract - Identification of Problem - Research Steps - Processing of Data - Discussion" }
         ],
-        correctAnswer: [2, 4],
+        correctAnswer: [2],
         hint: "Cấu trúc báo cáo nghiên cứu bao gồm Introduction, Methodologies, Results, Discussion/Conclusion hoặc Abstract, Research Steps, Discussion."
     },
     {
