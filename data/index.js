@@ -10,6 +10,7 @@ import { ssl101c7Exam } from './exams/ssl101c7.js';
 import { ssl101c8Exam } from './exams/ssl101c8.js';
 import { ssl101c9Exam } from './exams/ssl101c9.js';
 import { ssl101c10Exam } from './exams/ssl101c10.js';
+import { de1Exam } from './exams/de1.js';
 export const exams = [
    
     ssl101c1Exam,
@@ -21,6 +22,7 @@ export const exams = [
     ssl101c7Exam,
     ssl101c8Exam,
     ssl101c9Exam,
-    ssl101c10Exam
+    ssl101c10Exam,
+    de1Exam
 
 ];
