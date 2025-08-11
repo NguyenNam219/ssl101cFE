@@ -189,7 +189,7 @@ export const de2Exam = {
             { id: 3, text: "Follow up emails with spoken conversations" },
             { id: 4, text: "Attend talks" }
         ],
-        correctAnswer: [2, 3],
+        correctAnswer: [2, 4],
         hint: "Học sinh khuyên tham gia tuần định hướng và theo dõi email bằng trò chuyện trực tiếp."
     },
     {
