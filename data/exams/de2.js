@@ -1,6 +1,6 @@
 export const de2Exam = {
     id: 15, // ID phải khác với các đề đã có
-    title: "SSL101c_-_SP_2025_-_C2FE_3778",
+    title: "SSL101c_-_SP_2025_-_C2FE",
     description: "Good luck !",
     totalQuestions: 60, // Số câu hỏi thực tế
     questions: [

@@ -5,18 +5,18 @@ export const de4Exam = {
     totalQuestions: 60, // Số câu hỏi thực tế
     questions: [
 {
-            "id": 1,
-            "text": "For a piece of reflective writing, where should you begin?",
-            "image": "",
-            "category": "Writing Skills",
-            "options": [
+            id: 1,
+            text: "For a piece of reflective writing, where should you begin?",
+            image: "",
+            category: "Writing Skills",
+            options: [
                 { "id": 1, "text": "With an object" },
                 { "id": 2, "text": "With an experience or event that raised questions or demonstrated a gap in your knowledge" },
                 { "id": 3, "text": "With something you have recently learned" },
                 { "id": 4, "text": "In front of the mirror" }
             ],
-            "correctAnswer": 2,
-            "hint": "Bắt đầu với một trải nghiệm hoặc sự kiện đặt ra câu hỏi hoặc cho thấy khoảng trống kiến thức."
+            correctAnswer: 2,
+            hint: "Bắt đầu với một trải nghiệm hoặc sự kiện đặt ra câu hỏi hoặc cho thấy khoảng trống kiến thức."
         },
         {
             "id": 2,
@@ -47,24 +47,24 @@ export const de4Exam = {
             "hint": "Đối tượng nghiên cứu là các hành động trong tương tác hội thoại và cách tổ chức lượt lời."
         },
         {
-            "id": 4,
-            "text": "Which of the following are techniques for engaging your audience at the beginning of your presentation?",
-            "image": "",
-            "category": "Presentation Skills",
-            "multipleAnswers": true,
-            "options": [
-                { "id": 1, "text": "Tell a joke" },
-                { "id": 2, "text": "Put up a discussion question" },
-                { "id": 3, "text": "Move a kid around the room to increase the energy" },
-                { "id": 4, "text": "Have a short quiz" },
-                { "id": 5, "text": "Sing a song" }
+            id: 4,
+            text: "Which of the following are techniques for engaging your audience at the beginning of your presentation?  Choose 2 answers",
+            image: "",
+            category: "Presentation Skills",
+            multipleAnswers: true,
+            options: [
+                { id: 1, "text": "Tell a joke" },
+                { id: 2, "text": "Put up a discussion question" },
+                { id: 3, "text": "Move a kid around the room to increase the energy" },
+                { id: 4, "text": "Have a short quiz" },
+                { id: 5, "text": "Sing a song" }
             ],
-            "correctAnswer": [2, 4],
-            "hint": "Đặt câu hỏi thảo luận và tổ chức trắc nghiệm ngắn là cách thu hút khán giả hiệu quả."
+            correctAnswer: [2, 4],
+            hint: "Đặt câu hỏi thảo luận và tổ chức trắc nghiệm ngắn là cách thu hút khán giả hiệu quả."
         },
         {
             "id": 5,
-            "text": "What should be avoided when you use PowerPoint to present in class?",
+            "text": "What should be avoided when you use PowerPoint to present in class?  Choose 2 answers",
             "image": "",
             "category": "Presentation Skills",
             "multipleAnswers": true,
@@ -220,7 +220,7 @@ export const de4Exam = {
         },
         {
             "id": 16,
-            "text": "Which of the following is a proposal?",
+            "text": "Which of the following is a proposal?  Choose 2 answers",
             "image": "",
             "category": "Communication Skills",
             "multipleAnswers": true,
@@ -249,7 +249,7 @@ export const de4Exam = {
         },
         {
             "id": 18,
-            "text": "Which of the following are examples of plagiarism?",
+            "text": "Which of the following are examples of plagiarism?  Choose 3 answers",
             "image": "",
             "category": "Academic Integrity",
             "multipleAnswers": true,
@@ -264,7 +264,7 @@ export const de4Exam = {
         },
         {
             "id": 19,
-            "text": "Which of the following guidelines would be considered unreliable for an academic context?",
+            "text": "Which of the following guidelines would be considered unreliable for an academic context?   Choose 3 answers",
             "image": "",
             "category": "Research Skills",
             "multipleAnswers": true,
@@ -337,7 +337,7 @@ export const de4Exam = {
         },
         {
             "id": 24,
-            "text": "Why can't we rely just on textbooks as information sources at university?",
+            "text": "Why can't we rely just on textbooks as information sources at university?   Choose 3 answers",
             "image": "",
             "category": "Research Skills",
             "multipleAnswers": true,
@@ -410,7 +410,7 @@ export const de4Exam = {
         },
         {
             "id": 29,
-            "text": "Which of the following would you NOT need to reference at university?",
+            "text": "Which of the following would you NOT need to reference at university?  Choose 2 answers",
             "image": "",
             "category": "Academic Integrity",
             "multipleAnswers": true,
@@ -527,7 +527,7 @@ export const de4Exam = {
         },
         {
             "id": 37,
-            "text": "Which are features of deductive reasoning?",
+            "text": "Which are features of deductive reasoning?  Choose 2 answers",
             "image": "",
             "category": "Critical Thinking",
             "multipleAnswers": true,
@@ -794,7 +794,7 @@ export const de4Exam = {
         },
         {
             "id": 56,
-            "text": "Which of the following statements can be considered hasty generalizations?",
+            "text": "Which of the following statements can be considered hasty generalizations?  Choose 2 answers",
             "image": "",
             "category": "Critical Thinking",
             "multipleAnswers": true,
